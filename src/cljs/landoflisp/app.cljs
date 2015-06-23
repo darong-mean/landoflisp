@@ -1,4 +1,5 @@
-(ns landoflisp.app)
+(ns landoflisp.app
+  (:require [landoflisp.guess-my-number]))
 
 (defn init []
   (let [c (.. js/document (createElement "DIV"))]
