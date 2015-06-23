@@ -1,0 +1,2 @@
+{:require  [landoflisp.app]
+ :init-fns [landoflisp.app/init]}
